@@ -23,6 +23,6 @@ steps/online/nnet2/decode.sh --config conf/decode.config --cmd utils/run.pl --nj
 steps/online/nnet2/decode.sh --config conf/decode.config --cmd utils/run.pl --nj $NUM_JOBS --per-utt true "--min-lmwt $MIN_WEIGHT --max-lmwt $MAX_WEIGHT --word_ins_penalty $WIP" --online true exp/nnet2_online/graph data/test exp/nnet2_online/decode_test
 
 grep WER exp/nnet2_online/decode_dev/wer_*
-utils/int2sym.pl -f 2- exp/nnet2_online/graph/words.txt exp/nnet2_online/decode_dev/scoring/20.0.0.tra
+utils/int2sym.pl -f 2- exp/nnet2_online/graph/words.txt exp/nnet2_online/decode_dev/scoring/20.0.0.tra | sort
 
 cp ./exp ./models/hclg/ -r 

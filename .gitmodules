@@ -1,0 +1,6 @@
+[submodule "models/lang"]
+	path = models/lang
+	url = https://github.com/facebook-asr-chula/lm
+[submodule "models/lex"]
+	path = models/lex
+	url = https://github.com/facebook-asr-chula/lexicon

@@ -1,0 +1,49 @@
+!SIL !SIL SIL_S
+<eps> <eps> SIL
+กัน กัน k_B a_I n^_E
+กี่ กี่ k_B ii_E
+กี่คน กี่คน k_B ii_I kh_I o_I n^_E
+ขอ ขอ kh_B @@_E
+ของ ของ kh_B @@_I ng^_E
+คน คน kh_B o_I n^_E
+ความคิดเห็น ความคิดเห็น kh_B aa_I m^_I kh_I i_I t^_I h_I e_I n^_E
+ความคิดเห็น ความคิดเห็น khw_B aa_I m^_I kh_I i_I t^_I h_I e_I n^_E
+จำนวน จำนวน c_B a_I m^_I n_I uua_I n^_E
+ชอบ ชอบ ch_B @@_I p^_E
+ดู ดู d_B uu_E
+ถูกใจ ถูกใจ th_B uu_I k^_I c_I a_I j^_E
+ที ที th_B ii_E
+ที่ ที่ th_B ii_E
+นะ นะ n_B a_E
+บ้าง บ้าง b_B aa_I ng^_E
+มี มี m_B ii_E
+ยังไง ยังไง j_B a_I ng^_I ng_I a_I j^_E
+ละ ละ l_B a_E
+ล่าสุด ล่าสุด l_B aa_I s_I u_I t^_E
+สิ สิ s_B i_E
+หนังสือ หนังสือ n_B a_I ng^_I s_I vv_E
+หน่อย หน่อย n_B @@_I j^_E
+หน่อย หน่อย n_B @_I j^_E
+หรอ หรอ l_B qq_E
+หรอ หรอ r_B qq_E
+อะ อะ z_B a_E
+อะไร อะไร z_B a_I l_I a_I j^_E
+อะไร อะไร z_B a_I r_I a_I j^_E
+เช็คอิน เช็คอิน ch_B e_I kh_I @@_I qq_I n^_E
+เป็น เป็น p_B e_I n^_E
+เพจ เพจ ph_B e_I t^_E
+เพจ เพจ ph_B ee_I t^_E
+เพื่อน เพื่อน ph_B vva_I n^_E
+เฟซ เฟซ f_B ee_I s_E
+เฟซ เฟซ f_B ee_I t^_E
+เฟซ เฟซ f_B ee_I t^_I s_E
+เรา เรา l_B a_I w^_E
+เรา เรา r_B a_I w^_E
+เล่น เล่น l_B e_I n^_E
+แชร์ แชร์ ch_B xx_E
+แล้ว แล้ว l_B xx_I w^_E
+โพสต์ โพสต์ ph_B oo_I t^_E
+โพสต์ โพสต์ ph_B oo_I t^_I s_E
+ใช้ ใช้ ch_B a_I j^_E
+ไป ไป p_B a_I j^_E
+ไหน ไหน n_B a_I j^_E

@@ -1,0 +1,36 @@
+# online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_test/per_utt/utt2spk.5 "ark,s,cs:wav-copy scp,p:data/test/split5/5/wav.scp ark:- |" "ark:|gzip -c > exp/nnet2_online/decode_test/lat.5.gz" 
+# Started at Wed May  2 14:24:35 UTC 2018
+#
+online2-wav-nnet2-latgen-faster --online=true --do-endpointing=false --config=exp/nnet2_online/conf/online_nnet2_decoding.conf --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=0.1 --word-symbol-table=exp/nnet2_online/graph/words.txt exp/nnet2_online/final.mdl exp/nnet2_online/graph/HCLG.fst ark:exp/nnet2_online/decode_test/per_utt/utt2spk.5 'ark,s,cs:wav-copy scp,p:data/test/split5/5/wav.scp ark:- |' 'ark:|gzip -c > exp/nnet2_online/decode_test/lat.5.gz' 
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:182) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet2-latgen-faster:ComputeDerivedVars():ivector-extractor.cc:203) Done.
+wav-copy scp,p:data/test/split5/5/wav.scp ark:- 
+111 โพสต์ ล่าสุด มี ความคิดเห็น อะไร ล่าสุด นะ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 111
+112 ขอ ดู เพื่อน ของ เพื่อน นะ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 112
+113 ขอ ดู เพื่อน ของ เรา ที่ ชอบ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 113
+114 ขอ ดู ถูกใจ เรา หรอ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 114
+115 เพจ มี โพสต์ อะไร หรอ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 115
+116 เพื่อน ใช้ เล่น ล่าสุด อะ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 116
+117 เพื่อน โพสต์ อะไร เรา โพสต์ ล่าสุด 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 117
+118 เพื่อน ชอบ เพจ อะไร หรอ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 118
+119 เรา โพสต์ อะไร นะ 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 119
+LOG (wav-copy:main():wav-copy.cc:56) Copied 10 wave files
+120 โพสต์ ล่าสุด เล่น เรา คน 
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:272) Decoded utterance 120
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:36) Timing stats: real-time factor was 1.19553 (note: this cannot be less than one.)
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:38) Average delay was 0.563112 seconds.
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:42) Percentage of time spent idling was 53.5302
+LOG (online2-wav-nnet2-latgen-faster:Print():online-timing.cc:44) Longest delay was 1.29426 seconds for utterance '111'
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:278) Decoded 10 utterances, 0 with errors.
+LOG (online2-wav-nnet2-latgen-faster:main():online2-wav-nnet2-latgen-faster.cc:280) Overall likelihood per frame was 0.226425 per frame over 2862 frames.
+# Accounting: time=19 threads=1
+# Ended (code 0) at Wed May  2 14:24:54 UTC 2018, elapsed time 19 seconds

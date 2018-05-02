@@ -1,0 +1,6 @@
+log.txt
+Dockerfile
+models
+*/wav.scp
+*/spk2utt
+*/utt2spk
